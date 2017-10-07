@@ -11,13 +11,12 @@ To run this simulation, you can use the following commands for different scenari
 (quick command tutorial is provided under the input examples or you can issue command 'help'):
 
 Getting help page:
--------------
 help
 quit
 
 
 Creating a network switch SW_1 with 10 ports:
--------------
+
 create switch
 SW_1
 10
@@ -25,12 +24,12 @@ show switch SW_1
 quit
 
 
-Creating a network switch SW_1 with 10 ports, creating VLAN 100 on that switch and assigning ports 0,1,2,3,4 to VLAN 100
-------------
+Creating a network switch SW_1 with 10 ports, creating VLAN 100 on that switch and assigning ports 0,1,2,3,4 to VLAN 100:
+
 create switch
 SW_1
 10
-switch vlan
+switch vlan,
 100
 y
 0,1,2,3,4
@@ -40,8 +39,8 @@ quit
 
 
 Creating a network switch SW_1, VLAN 100, assigning ports 0,1,2,3,4 to VLAN 100, creating workstations PC_1 and PC_2
-and connecting them to switch SW_1, and finally sending 5 frames from PC_1 to PC_2 and displaying corresponding statistics
---------------
+and connecting them to switch SW_1, and finally sending 5 frames from PC_1 to PC_2 and displaying corresponding statistics:
+
 create switch
 SW_1
 10
