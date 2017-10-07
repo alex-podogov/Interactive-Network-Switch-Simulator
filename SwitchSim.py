@@ -1,7 +1,7 @@
 
 
 """
-This is a trivial simulation of unmanaged switch's operations
+This is a simulation of simple network switch's operations
 """
 
 from sys import exit
