@@ -1,8 +1,10 @@
 # Interactive-Network-Switch-Simulator
-While learning OOP in Python, I decided to build an interactive network switch simulator. It supports a simple CLI and basic functionalities of switches. 
 
-Yes, I realize that this is not a fully-functional network
-simulator. For now, it supports a single switch and a few PCs
+Was bored and decided to build an interactive network switch simulator with Python. 
+It supports a simple CLI and basic functionalities of switches. 
+
+I realize that this is not a fully-functional network
+simulator. It supports a single switch and a few PCs
 connected to it.
 
 I have tested it in my PyCharm and in my OS environment. And it works just fine.
